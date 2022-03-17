@@ -7,6 +7,47 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="bg-white shadow-md">
+        <header class="container mx-auto max-w-7xl flex flex-wrap items-center p-6 justify-between">
+            <div class="flex items-center    ">
+                <svg class="fill-current h-8 w-8 mr-2" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
+                </svg>
+                <span class="font-semibold text-xl font-title text-sec hover:text-pri cursor-pointer transition ">
+                    killerCodesNews
+                </span>
+            </div>
+            <div class="md:hidden block">
+                <button id="menu-open" class="px-3 py-1 rounded bg-sec text-white hover:bg-purple-900 transition">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                      </svg>   
+                </button>
+                <button id="menu-close" class="hidden px-3 py-1 rounded bg-sec text-white hover:bg-purple-900 transition">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                      </svg>
+                </button>
+            </div>
+            <nav id="menu-items" class="hidden md:flex md:items-center  font-title w-full md:w-auto">
+                <ul class="text-lg">
+                    <li class="my-3 md:my-0 block md:inline-block items-center mr-4">
+                        <a href="#" class="text-pri hover:text-sec transition">Home</a>
+                    </li>
+                    <li class="mb-3 md:my-0 block md:inline-block items-center mr-4">
+                        <a href="#" class="text-pri hover:text-sec transition">About</a>
+                    </li>
+                    <li class="mb-3 md:my-0 block md:inline-block items-center mr-4">
+                        <a href="#" class="text-pri hover:text-sec transition">Contacts</a>
+                    </li>
+                    <li class="mb-3 md:my-0 block md:inline-block items-center mr-4">
+                        <a href="#" class="text-pri hover:text-sec transition">News</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
  <div class="container px-4 mx-auto max-w-5xl">
      <div class="text-center py-10 sm:py-14 ">
          <h1 class="text-3xl mdtext-5xl font-bold font-tittle text-sec">
@@ -189,5 +230,6 @@
 
      </div>
  </footer>
+ <script src="js/script.js"></script>
 </body>
 </html>
